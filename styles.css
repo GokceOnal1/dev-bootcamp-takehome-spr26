@@ -1,3 +1,66 @@
-/* Your Styles Here */
-body{
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: grey;
+}
+
+.pfp {
+    border-radius: 100px;
+    width: 10vw;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0px 5px 15px 5px #888888
+}
+
+.upper-line {
+    background-color:black;
+    width: 50%;
+    height: 5px;
+    border-radius: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background: #2A7B9B;
+    background: linear-gradient(90deg, rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1)  100%);
+    width: 66%;
+    border-radius: 10px;
+    border: 2px solid rgb(71, 70, 70);
+}
+
+.inner-card {
+    background-color: #7e7575;
+    width: 80%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 2% 2% 2% 2%;
+    box-shadow: 5px 10px 15px 5px #524f4f
+}
+
+.fade-in-up {
+    animation: fade-in-up-anim 1s ease-in forwards;
+}
+
+@keyframes fade-in-up-anim {
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
 }
